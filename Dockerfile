@@ -14,4 +14,4 @@ COPY . .
 
 # Expose Cloud Run port
 ENV PORT=8080
-CMD ["gunicorn", "-b", ":8080", "app:app"]
+CMD ["gunicorn", "-b", ":8080", "app:app","main.py"]

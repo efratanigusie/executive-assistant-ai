@@ -8,6 +8,11 @@
 - 📧 **Email Notifications** – Sends invites and confirmations.
 - ⏰ **Daily Reminders** – Automatic daily task/meeting reminders.
 - 🔄 **Error Handling** – Detects invalid emails and unknown commands.
+## 🐳 Run with Docker
+
+```bash
+docker build -t executive-ai .
+docker run executive-ai
 
 ## Tech Stack
 - Python 3.x
